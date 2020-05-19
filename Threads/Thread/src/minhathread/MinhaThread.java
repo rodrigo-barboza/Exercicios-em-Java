@@ -13,6 +13,7 @@ public class MinhaThread extends Thread{
         start();
     }
     
+    @Override
     public void run(){
         
         try {
