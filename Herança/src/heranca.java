@@ -3,9 +3,9 @@
         modificador -> acesso
 
         + public      -> classe, subclasse, pacote, todos (pacotes, classes)
-        - protected   -> classe, subclasse, pacote
+        # protected   -> classe, subclasse, pacote
         ! default     -> classe, pacote
-        # private     -> classe
+        - private     -> classe
         
     * abstract
         uma classe abstrata nao pode ser instanciada diretamente:
